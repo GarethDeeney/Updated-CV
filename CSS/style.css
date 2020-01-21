@@ -1,0 +1,217 @@
+/* HTML Tags */
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 10px 0;
+  font-family: 'Sacramento', serif;
+  font-size: 5.625rem;
+  text-align: center;
+  color: #0f4c75;
+  line-height: 2em;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 75px;
+  border-width: 6px;
+  margin: 65px auto;
+  color: #bbe1fa;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px 0;
+  color: #3282b8;
+  line-height: 2em;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3282b8;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 110%;
+  color: #0f4c75;
+  line-height: 2rem;
+}
+
+span {
+  color: #bbe1fa;
+  font-size: 0.75rem;
+}
+
+a {
+  margin: 30px 20px;
+}
+
+/* Classes */
+.header {
+  background-color: #bbe1fa;
+  margin: none;
+}
+
+.cloud1 {
+  position: relative;
+  top: 20px;
+  left: 750px;
+}
+
+.headings {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+}
+
+.mountain {
+  display: block;
+  margin: 0 auto;
+}
+
+.cloud2 {
+  display: block;
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+
+.profile {
+  margin: 40px auto;
+}
+
+.middle-container {
+  text-align: center;
+}
+
+.skills {
+  width: 650px;
+  margin: 0 auto 20px;
+}
+
+.myskills {
+  margin: 30px 0;
+}
+
+.skill-row {
+  margin: 70px auto;
+}
+
+.soccer {
+  text-align: left;
+  width: 400px;
+  margin-left: 250px;
+}
+
+.program {
+  text-align: right;
+  width: 400px;
+}
+
+.programming {
+  width: 125px;
+  float: right;
+}
+
+.football {
+  width: 125px;
+  float: left;
+}
+
+.contact-me {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #0f4c75;
+  padding: 60px 0;
+}
+
+.socialicon {
+  width: 75px;
+}
+
+/*Button */
+.btn {
+  -moz-box-shadow: inset 0px 1px 0px 0px #61a0e0;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #61a0e0;
+  box-shadow: inset 0px 1px 0px 0px #61a0e0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3290ed), color-stop(1, #0b3d70));
+  background: -moz-linear-gradient(center top, #3290ed 5%, #0b3d70 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3290ed', endColorstr='#0b3d70');
+  background-color: #3290ed;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  border: 1px solid #1470cc;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  height: 60px;
+  line-height: 60px;
+  width: 181px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #0f4a85;
+}
+
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0b3d70), color-stop(1, #3290ed));
+  background: -moz-linear-gradient(center top, #0b3d70 5%, #3290ed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b3d70', endColorstr='#3290ed');
+  background-color: #0b3d70;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* This button was generated using CSSButtonGenerator.com */
+/*Media Queries*/
+@media (max-width: 900px) {
+
+  /* @media print{ */
+  .skill-row {
+    width: 90%;
+  }
+
+  .football {
+    width: 150px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .soccer {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .programming {
+    width: 150px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .program {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
